@@ -3,4 +3,4 @@
 # $1 - file name
 # $2 - file content
 
-echo $1 | base64 -d > secure/$2.json
+echo $2 | base64 -d > secure/$1.json
